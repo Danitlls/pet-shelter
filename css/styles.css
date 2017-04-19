@@ -8,20 +8,26 @@ body {
   background-color: #fff;
   padding: 2%;
   float: left;
+  border-radius: 15px;
+  margin-bottom: 15px;
 }
 
 h1 {
+  font-size: 40px;
   color: #62656b;
   text-align: center;
   text-shadow: 2px 2px white;
 }
 
 h2 {
+  font-size: 32px;
   text-align: center;
 }
 
 img {
-width: 85%;
+  width: 85%;
+  border-radius: 100%;
+  border: solid 4px #a5c16d;
 }
 
 .animals {
@@ -31,11 +37,26 @@ width: 85%;
   margin-right: 15px;
 }
 
+.animals p {
+  margin-bottom: 45px;
+}
+
 .side-bar {
-  background-color: #62656b;
+  background-color: #a5c16d;
+  border-radius: 15px;
   color: white;
   width: 25%;
   margin: 2px;
   padding: 15px;
-  padding-bottom: 70%;
+  padding-bottom: 55%;
+}
+
+.side-bar h3 {
+  font-size: 28px;
+  text-shadow: 1.5px 1.5px #88a057;
+}
+
+.side-bar p {
+  font-size: 20px;
+  letter-spacing: 1.2px;
 }
