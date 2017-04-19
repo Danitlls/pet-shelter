@@ -13,13 +13,18 @@ body {
 }
 
 h1 {
+  font-family: 'Fredoka One', cursive;
   font-size: 40px;
-  color: #62656b;
+  color: #fff;
   text-align: center;
-  text-shadow: 2px 2px white;
+  text-shadow: 2px 2px #b0b0b0;
+  letter-spacing: 1.5px;
 }
 
 h2 {
+  font-family: 'Fredoka One', cursive;
+  letter-spacing: 1.3px;
+  color: #a5c16d;
   font-size: 32px;
   text-align: center;
 }
