@@ -14,11 +14,13 @@ body {
 
 h1 {
   font-family: 'Fredoka One', cursive;
-  font-size: 40px;
+  font-size: 70px;
   color: #fff;
   text-align: center;
   text-shadow: 2px 2px #b0b0b0;
   letter-spacing: 1.5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -27,6 +29,7 @@ h2 {
   color: #a5c16d;
   font-size: 32px;
   text-align: center;
+  margin-top: 15px;
 }
 
 img {
@@ -35,15 +38,26 @@ img {
   border: solid 4px #a5c16d;
 }
 
-.animals {
+.column {
   float: left;
   width: 30%;
   padding: 2%;
   margin-right: 15px;
 }
 
+.animals {
+  text-align: center;
+  font-size: 18px;
+  color: #626770;
+}
+
 .animals p {
   margin-bottom: 45px;
+
+}
+
+.animals h3 {
+  text-align: center;
 }
 
 .side-bar {
@@ -61,7 +75,17 @@ img {
   text-shadow: 1.5px 1.5px #88a057;
 }
 
+.side-bar h4 {
+  font-size: 22px;
+  text-shadow: 1.5px 1.5px #88a057;
+}
+
 .side-bar p {
   font-size: 20px;
   letter-spacing: 1.2px;
+}
+
+.side-bar p a {
+  text-decoration: none;
+  color: #518ead;
 }
